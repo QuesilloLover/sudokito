@@ -19,14 +19,14 @@ typedef struct {
 } Dato;
 
 void imprimirSudoku(int tableroSudoku[][MAX_TAMAÑO_SUDOKU]);
-int inicializarMatriz(int tableroSudoku[][MAX_TAMAÑO_SUDOKU]);
+void inicializarMatriz(int tableroSudoku[][MAX_TAMAÑO_SUDOKU]);
 int validarDatoEntero(int dato);
 bool revisarBloque9x9(int tableroSudoku[][MAX_TAMAÑO_SUDOKU], int numColumna, int numFila, int numIngresado);
 bool revisarBloque3x3(int tableroSudoku[][MAX_TAMAÑO_SUDOKU], int numColumna, int numFila, int numIngresado);
 bool verificarRespuestas(int tableroSudoku[][MAX_TAMAÑO_SUDOKU], int tableroSudokuSolucion[][MAX_TAMAÑO_SUDOKU]);
 int cargarSudoku(int tablero[][MAX_TAMAÑO_SUDOKU], int nivelDeDificultad, int tipo);
 
-int inicializarMatriz(int tableroSudoku[][MAX_TAMAÑO_SUDOKU]){
+void inicializarMatriz(int tableroSudoku[][MAX_TAMAÑO_SUDOKU]){
     for(int i = 0; i < MAX_TAMAÑO_SUDOKU; i++){
         for(int j = 0; j < MAX_TAMAÑO_SUDOKU; j++){
             tableroSudoku[i][j] = 0;
