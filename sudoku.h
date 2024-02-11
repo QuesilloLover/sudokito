@@ -52,7 +52,7 @@ void menu(void){
     int nivel;
     printf(ANSI_COLOR_CYAN"\n\t\t-_-_-_-_-_-_-_-_-_-_-_-_-SUDOKU LOKO-_-_-_-_-_-_-_-_-_-_-_-_-\n\n"ANSI_COLOR_RESET);
     do{
-        printf(ANSI_COLOR_BLUE"\n\n\t\t\t\tSelecciones el nivel de dificultad\n\n\t\t\t1. Facil\n\t\t\t2. Intermedio\n\t\t\t3. Dificil\n\t\t\t\t\t>  "ANSI_COLOR_RESET);
+        printf(ANSI_COLOR_BLUE"\n\n\t\t\t\tSeleccione el nivel de dificultad\n\n\t\t\t1. Facil\n\t\t\t2. Intermedio\n\t\t\t3. Dificil\n\t\t\t\t\t>  "ANSI_COLOR_RESET);
         scanf("%d",&nivel);
         validarDatoEntero(nivel);
     } while(nivel < 1 || nivel > 3);
