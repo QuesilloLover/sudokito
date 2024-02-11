@@ -8,4 +8,5 @@
 
 ## IMPORTANTE
 
-La seleccion de filas y columnas se hace de 0 a 8.
+La seleccion de filas y columnas se hace de 1 a 9.
+El archivo a ejecutar es el main
