@@ -6,9 +6,6 @@
 #include<windows.h>
 
 #define MAX_TAMAÑO_SUDOKU 9
-#define LIMITE_1_SUBMATRIZ 2
-#define LIMITE_2_SUBMATRIZ 5
-#define LIMITE_3_SUBMATRIZ 8
 #define ANSI_COLOR_PINK    "\x1b[35m"
 #define ANSI_COLOR_RESET   "\x1b[0m"
 #define ANSI_COLOR_CYAN    "\x1b[36m"
